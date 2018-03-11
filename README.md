@@ -9,6 +9,7 @@ Servidor de API em NodeJS para gestão de domínios e emails utilizados pelo pos
 ## Execute os comandos
 ```sh
 git clone https://github.com/marciodojr/PostfixDovecotAppServer
+cd PostfixDovecotAppServer
 npm install
 ```
 
