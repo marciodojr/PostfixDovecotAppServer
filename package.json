@@ -1,5 +1,5 @@
 {
-  "name": "postfixdovecotngappserver",
+  "name": "postfixdovecotappserver",
   "version": "0.1.0",
   "description": "Servidor de API para manipulação de dominíos e emails usados pelo postfix e dovecot",
   "main": "app.js",

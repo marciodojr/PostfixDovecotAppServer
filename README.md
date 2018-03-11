@@ -8,7 +8,7 @@ Servidor de API em NodeJS para gestão de domínios e emails utilizados pelo pos
 
 ## Execute os comandos
 ```sh
-git clone 
+git clone https://github.com/marciodojr/PostfixDovecotAppServer
 npm install
 ```
 
@@ -33,7 +33,7 @@ module.exports = {
 
 ## Crie o banco de dados e adicione dados
 
-Os arquivos `data/db.sql` e `data/test.sql` possuem informações necessárias caso queira usar o mysql.
+Os arquivos `data/db.sql` e `data/test.sql` possuem informações necessárias, caso queira usar o mysql.
 
 
 ## Rode o servidor
