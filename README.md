@@ -1,6 +1,6 @@
 # PostfixDovecotAppServer
 
-Servidor de API em NodeJS para gestão de domínios e emails utilizados pelo postfix, dovecot. Permite registrar domínios, emails e configurar o redirecionamento de mensagens.
+Servidor de API em NodeJS para gestão de domínios e emails utilizados pelo postfix e dovecot. Permite manipular domínios, emails e configurar o redirecionamento de mensagens para emails de terceiros.
 
 
 # Como instalar
