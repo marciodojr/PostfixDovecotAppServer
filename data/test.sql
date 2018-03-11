@@ -1,0 +1,34 @@
+insert into virtual_domains values(1, 'domain1.com.br');
+insert into virtual_domains values(2, 'domain2.com.br');
+insert into virtual_domains values(3, 'domain3.com.br');
+insert into virtual_domains values(4, 'domain4.com.br');
+insert into virtual_domains values(5, 'domain5.com.br');
+insert into virtual_domains values(6, 'domain6.com.br');
+insert into virtual_domains values(7, 'domain7.com.br');
+insert into virtual_domains values(8, 'domain8.com.br');
+insert into virtual_domains values(9, 'domain9.com.br');
+insert into virtual_domains values(10, 'domain10.com.br');
+insert into virtual_domains values(11, 'domain11.com.br');
+insert into virtual_domains values(12, 'domain12.com.br');
+insert into virtual_domains values(13, 'domain13.com.br');
+insert into virtual_domains values(14, 'domain14.com.br');
+insert into virtual_domains values(15, 'domain15.com.br');
+insert into virtual_domains values(16, 'domain16.com.br');
+insert into virtual_domains values(17, 'domain17.com.br');
+insert into virtual_domains values(18, 'domain18.com.br');
+insert into virtual_domains values(19, 'domain19.com.br');
+insert into virtual_domains values(20, 'domain20.com.br');
+insert into virtual_domains values(21, 'domain21.com.br');
+insert into virtual_domains values(22, 'domain22.com.br');
+
+insert into virtual_users values(1, 1, ENCRYPT('p1', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user1@domain1.com.br');
+insert into virtual_users values(2, 1, ENCRYPT('p2', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user2@domain1.com.br');
+insert into virtual_users values(3, 1, ENCRYPT('p3', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user3@domain1.com.br');
+insert into virtual_users values(4, 1, ENCRYPT('p4', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user4@domain1.com.br');
+insert into virtual_users values(5, 1, ENCRYPT('p5', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user5@domain1.com.br');
+
+insert into virtual_users values(6, 5, ENCRYPT('p1', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user1@domain5.com.br');
+insert into virtual_users values(7, 5, ENCRYPT('p2', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user2@domain5.com.br');
+insert into virtual_users values(8, 7, ENCRYPT('p3', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user3@domain7.com.br');
+insert into virtual_users values(9, 9, ENCRYPT('p4', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user4@domain9.com.br');
+insert into virtual_users values(10, 15, ENCRYPT('p5', CONCAT('$6$', SUBSTRING(SHA(RAND()), -16))), 'user5@domain15.com.br');

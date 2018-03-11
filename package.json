@@ -1,0 +1,22 @@
+{
+  "name": "postfixdovecotngappserver",
+  "version": "0.1.0",
+  "description": "Servidor de API para manipulação de dominíos e emails usados pelo postfix e dovecot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Márcio Dias <marciojr91@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "mocha": "^5.0.4",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.36.0"
+  }
+}
