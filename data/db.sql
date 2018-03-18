@@ -6,7 +6,7 @@ use servermail;
 
 CREATE TABLE virtual_domains (
 id  INT NOT NULL AUTO_INCREMENT,
-name VARCHAR(50) NOT NULL,
+name VARCHAR(50) NOT NULL unique,
 PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
